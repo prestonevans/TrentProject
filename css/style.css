@@ -151,9 +151,12 @@ nav {
 	flex-flow: column;
 	border-right: 1px solid black;
 }
-nav,
+
 .page {
 	padding: 2rem;
+}
+nav {
+	padding: 2rem 0;
 }
 main {
 	display: flex;
@@ -164,8 +167,12 @@ main {
 a {
 	text-decoration: none;
 	color: rgb(170, 170, 170);
+	padding: 0 2rem;
 }
 .active a {
+	border-left: 6px solid cadetblue;
+	position: relative;
+	right: 6px;
 	color: cadetblue;
 }
 .link {
