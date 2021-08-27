@@ -1,4 +1,4 @@
-html,
+/* html,
 body,
 div,
 span,
@@ -128,4 +128,50 @@ table {
 input,
 select {
 	vertical-align: middle;
+} */
+.container {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #f1f1f1;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.596);
+	border-radius: 2rem;
+	font-size: 3rem;
+}
+body {
+	background-color: #f1f1f1;
+}
+header {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+nav {
+	display: flex;
+	flex-flow: column;
+	border-right: 1px solid black;
+}
+nav,
+.page {
+	padding: 2rem;
+}
+main {
+	display: flex;
+}
+.page {
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: rgb(170, 170, 170);
+}
+.active a {
+	color: cadetblue;
+}
+.link {
+	display: flex;
+	height: 50px;
+}
+nav div:not(:last-child) {
+	margin-bottom: 1rem;
 }
